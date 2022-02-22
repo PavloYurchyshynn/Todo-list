@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div data-testid='app-1' className="App">
       <header>
         <h1>Список завдань: {todos.length}</h1>
       </header>
